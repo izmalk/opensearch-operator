@@ -1,9 +1,3 @@
----
-myst:
-  html_meta:
-    description: "Roll back a failed Charmed OpenSearch minor upgrade to restore stability and investigate upgrade failures safely."
----
-
 (how-to-minor-rollback)=
 # How to perform a minor rollback
 

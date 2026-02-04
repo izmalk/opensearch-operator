@@ -1,9 +1,3 @@
----
-myst:
-  html_meta:
-    description: "Release notes for all Charmed OpenSearch versions with new features, bug fixes, and upgrade information."
----
-
 (reference-release-notes-index)=
 # Release notes
 

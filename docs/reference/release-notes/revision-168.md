@@ -1,9 +1,3 @@
----
-myst:
-  html_meta:
-    description: "Charmed OpenSearch Revision 168 release notes - large scale deployments, security automations, monitoring, and backup features."
----
-
 (reference-release-notes-revision-168)=
 # Revision 168 release notes
 <sub>24 September 2024</sub>

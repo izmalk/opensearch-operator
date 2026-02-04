@@ -1,9 +1,3 @@
----
-myst:
-  html_meta:
-    description: "Upgrade Charmed OpenSearch from one minor version to another with pre-upgrade checks, in-place upgrades, and health verification."
----
-
 (how-to-minor-upgrade)=
 # How to perform a minor upgrade
 

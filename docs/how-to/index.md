@@ -1,9 +1,3 @@
----
-myst:
-  html_meta:
-    description: "Step-by-step guides for deploying, managing, and maintaining Charmed OpenSearch including TLS, backups, monitoring, and scaling."
----
-
 (how-to-index)=
 # How-to guides
 
@@ -61,5 +55,4 @@ Access using OAuth <access-using-oauth>
 Enable JWT Authentication <enable-jwt-authentication>
 Enable email notifications <add-smtp-credentials>
 monitoring/index
-Enable email notifications <add-smtp-credentials>
 ```

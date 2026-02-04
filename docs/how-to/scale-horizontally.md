@@ -1,9 +1,3 @@
----
-myst:
-  html_meta:
-    description: "Safely scale down Charmed OpenSearch clusters by removing units while preventing data loss and maintaining high availability."
----
-
 (how-to-scale-horizontally)=
 # How to safely scale down
 

@@ -1,9 +1,3 @@
----
-myst:
-  html_meta:
-    description: "Upgrade guides for Charmed OpenSearch including minor version upgrades and rollback procedures."
----
-
 (how-to-guides-upgrade-index)=
 # Upgrade
 

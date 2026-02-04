@@ -1,9 +1,3 @@
----
-myst:
-  html_meta:
-    description: "Configure AWS S3 or Ceph RadosGW storage for Charmed OpenSearch backups using the S3 Integrator charm with Juju."
----
-
 (how-to-back-up-configure-s3)=
 # How to configure S3 storage 
 

@@ -1,9 +1,3 @@
----
-myst:
-  html_meta:
-    description: "Learn how to retrieve and rotate admin passwords in Charmed OpenSearch for enhanced security and credential management."
----
-
 (tutorial-5-manage-passwords)=
 # 5. Manage passwords
 

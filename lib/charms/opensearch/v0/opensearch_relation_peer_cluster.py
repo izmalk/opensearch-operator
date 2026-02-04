@@ -30,6 +30,7 @@ from charms.opensearch.v0.constants_secrets import (
 from charms.opensearch.v0.constants_tls import CertType
 from charms.opensearch.v0.helper_charm import Status, all_units, diff, format_unit_name
 from charms.opensearch.v0.helper_cluster import ClusterTopology
+from charms.opensearch.v0.helper_plugins import remove_plugin_secret
 from charms.opensearch.v0.models import (
     AzureRelDataCredentials,
     DeploymentDescription,
@@ -1230,7 +1231,7 @@ class OpenSearchPeerClusterRequirer(OpenSearchPeerClusterRelation):
         add, remove = diff(configs_from_relation.keys(), current_app_plugin_info.keys())
 
         for label in remove:
-            self.charm.remove_plugin_secret(label)
+            remove_plugin_secret(self.charm, label)
 
         for label in add:
             plugin = configs_from_relation[label]
@@ -1258,7 +1259,7 @@ class OpenSearchPeerClusterRequirer(OpenSearchPeerClusterRelation):
         """Removes stored plugin configurations"""
         plugins_labels = self.charm.state.app.plugin_config_info.keys()
         for label in plugins_labels:
-            self.charm.remove_plugin_secret(label)
+            remove_plugin_secret(self.charm, label)
 
     def apply_orchestrator_status(self) -> None:
         """Sets or clears status based on presence of local orchestrators."""

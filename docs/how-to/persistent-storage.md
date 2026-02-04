@@ -1,9 +1,3 @@
----
-myst:
-  html_meta:
-    description: "Reuse and recover OpenSearch data from Juju-managed disks containing existing cluster metadata and data."
----
-
 (how-to-persistent-storage)=
 # How to manage persistent storage
 

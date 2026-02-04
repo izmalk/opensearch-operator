@@ -1,9 +1,3 @@
----
-myst:
-  html_meta:
-    description: "Enable JSON Web Token (JWT) authentication in Charmed OpenSearch using the JWT integrator charm for secure token-based access."
----
-
 (how-to-guides-enable-jwt-authentication)=
 # How to enable JWT Authentication
 

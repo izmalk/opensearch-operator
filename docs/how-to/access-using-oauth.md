@@ -1,9 +1,3 @@
----
-myst:
-  html_meta:
-    description: "Secure Charmed OpenSearch with OAuth authentication using Canonical Identity Platform (Hydra) and query with OAuth tokens."
----
-
 (how-to-access-using-oauth)=
 # How to access OpenSearch using OAuth
 

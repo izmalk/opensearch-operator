@@ -1,9 +1,3 @@
----
-myst:
-  html_meta:
-    description: "Complete hands-on tutorial to deploy Charmed OpenSearch with Juju, enable TLS encryption, integrate applications, and scale your cluster."
----
-
 (tutorial-index)=
 # Tutorial
 
