@@ -61,4 +61,5 @@ Access using OAuth <access-using-oauth>
 Enable JWT Authentication <enable-jwt-authentication>
 Enable email notifications <add-smtp-credentials>
 monitoring/index
+Enable email notifications <add-smtp-credentials>
 ```
