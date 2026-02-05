@@ -60,6 +60,8 @@ endorsed, or affiliated with Amazon Web Services.
 This documentation follows the
 [Diataxis framework](https://canonical.com/blog/diataxis-a-new-foundation-for-canonical-documentation).
 
+The subproject link title <subproject: subproject-name>.
+
 ```{subprojecttoctree}
 :titlesonly:
 :hidden:
