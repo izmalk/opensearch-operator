@@ -18,12 +18,12 @@ Among the [multiple roles](https://opensearch.org/docs/latest/tuning-your-cluste
 OpenSearch, two notable roles are especially crucial for a successful cluster formation:
 
 - `cluster_manager`: assigned to nodes responsible for handling cluster-wide operations such as
-- creating and deleting indices, managing shards, and rebalancing data across the cluster.
-- Every cluster has a single `cluster_manager` node elected as the `master` node among the
-- `cluster_manager` eligible nodes.
+  creating and deleting indices, managing shards, and rebalancing data across the cluster.
+  Every cluster has a single `cluster_manager` node elected as the `master` node among the
+  `cluster_manager` eligible nodes.
 - `data`: assigned to nodes which store and perform data-related operations like indexing
-- and searching. Data nodes hold the shards that contain the indexed data.
-- Data nodes can also be configured to perform ingest and transform operations.
+  and searching. Data nodes hold the shards that contain the indexed data.
+  Data nodes can also be configured to perform ingest and transform operations.
 
 In charmed OpenSearch, data nodes can optionally be further classified into tiers -
 to allow for defining [index lifecycle management policies](https://opensearch.org/docs/latest/im-plugin/ism/index/):
