@@ -13,6 +13,6 @@ For a step-by-step introduction, see the [Tutorial](tutorial-index).
 ```{toctree}
 :titlesonly:
 
-Deploy on LXD <deploy-on-lxd>
+Standard deployment <deploy-anywhere>
 Launch a large deployment <launch-a-large-deployment>
 ```

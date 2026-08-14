@@ -11,7 +11,7 @@ These guides help you accomplish specific tasks with Charmed OpenSearch on machi
 
 ## Deployment
 
-* [Deploy on LXD](how-to-deploy-lxd)
+* [Deploy Charmed OpenSearch](how-to-deploy-anywhere)
 * [Launch a large deployment](how-to-deploy-large)
 
 ## Security
