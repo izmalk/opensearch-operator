@@ -10,12 +10,15 @@ myst:
 <!-- vale on -->
 # How to deploy Charmed OpenSearch
 
-This guide summarizes how to set up your environment and deploy Charmed OpenSearch,
-covering both the **IAAS/VM** charm (`opensearch`) and the **Kubernetes** charm
-(`opensearch-k8s`).
+This guide walks you through setting up your environment and deploying Charmed
+OpenSearch, covering both the **IAAS/VM** charm (`opensearch`) and the
+**Kubernetes** charm (`opensearch-k8s`).
 
-Use the tabs below to switch between the two substrates — your selection is remembered
-as you scroll through the rest of the page.
+Start here unless you are planning a large, multi-application deployment — in that
+case, see [Launch a large deployment](how-to-deploy-large).
+
+Use the tabs below to switch between the two substrates — your selection is
+remembered as you scroll through the rest of the page.
 
 If you are a beginner to OpenSearch or Juju and are looking for a more comprehensive
 walkthrough of these steps, refer instead to the [Tutorial](tutorial-index).
