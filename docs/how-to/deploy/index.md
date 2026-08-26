@@ -13,6 +13,6 @@ For a step-by-step introduction, see the [Tutorial](tutorial-index).
 ```{toctree}
 :titlesonly:
 
-Standard deployment <deploy-anywhere>
+Standard deployment <deploy>
 Launch a large deployment <launch-a-large-deployment>
 ```

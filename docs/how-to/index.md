@@ -11,7 +11,7 @@ These guides help you accomplish specific tasks with Charmed OpenSearch on machi
 
 ## Deployment
 
-* [Standard deployment](how-to-deploy-anywhere)
+* [Standard deployment](how-to-deploy)
 * [Launch a large deployment](how-to-deploy-large)
 
 ## Security

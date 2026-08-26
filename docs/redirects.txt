@@ -25,10 +25,11 @@ t-clean-up/ tutorial/7-clean-up-the-environment/
 # How-to guides
 
 h-deploy/ how-to/deploy/
-h-deploy-lxd/ how-to/deploy/deploy-anywhere/
+h-deploy-lxd/ how-to/deploy/deploy/
 h-large-deployment/ how-to/deploy/launch-a-large-deployment/
 
-how-to/deploy/deploy-on-lxd/ how-to/deploy/deploy-anywhere/
+how-to/deploy/deploy-on-lxd/ how-to/deploy/deploy/
+how-to/deploy/deploy-anywhere/ how-to/deploy/deploy/
 
 h-tls/ how-to/tls-encryption/
 h-enable-tls/ how-to/tls-encryption/
